@@ -1,6 +1,5 @@
 """application entry point"""
 import warnings
-"""application entry point"""
 from controller import flow
 
 
