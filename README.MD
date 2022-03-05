@@ -13,3 +13,14 @@ At VirusTotal we are always willing to work together to gather as many files and
 You may rather want to get started straight away with a Premium API trial, discover what VirusTotal can do for your organization at: https://www.virustotal.com/gui/services-overview
 
 Kind regards.
+
+Installation
+run pip install -r requirements.txt
+
+Suggestions for improvements or changes
+1. load each response iteration into a list of responses and at the end load it into a pandas dataframe.
+2. load the responses dataframe into a data\rawdata.csv file for better investigation. 
+3. add 2 new fields using "df.assign" method to the main dataframe acording the requirment logic -> risk\safe datasite & total voting.
+4. load the dataframe to db using sqlalchemy(to_sql).
+5. add exception handling (try,except,finally).
+6. add logger.
