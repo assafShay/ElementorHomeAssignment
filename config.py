@@ -1,3 +1,3 @@
 """App configuration constants"""
-DB='connection string'
+DB="connection string"
 API_KEY="api key"
