@@ -23,9 +23,7 @@ def run():
 
             print(dict(result_dict))
 
-            if "malicious" in result_list:
-                if "phishing" in result_list:
-                    if "malware" in result_list:
-                        print(f"{url}: risk")
+            if ("malicious" in result_list or "phishing" in result_list or "malware" in result_list):
+                print(f"{url}: risk")
             else:
                 print(f"{url}: safe")
