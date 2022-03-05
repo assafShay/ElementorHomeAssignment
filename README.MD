@@ -18,7 +18,7 @@ Installation
 run pip install -r requirements.txt
 
 Suggestions for improvements or changes
-1. load each response iteration into a list of responses and at the end load it into a pandas dataframe.
+1. in each url iteration load the response into a list of responses and at the end load the list of responses into a pandas dataframe.
 2. load the responses dataframe into a data\rawdata.csv file for better investigation. 
 3. add 2 new fields using "df.assign" method to the main dataframe acording the requirment logic -> risk\safe datasite & total voting.
 4. load the dataframe to db using sqlalchemy(to_sql).
