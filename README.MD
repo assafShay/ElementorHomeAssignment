@@ -19,8 +19,9 @@ run pip install -r requirements.txt
 
 Suggestions for improvements or changes
 1. in each url iteration load the response into a list of responses and at the end load the list of responses into a pandas dataframe.
-2. load the responses dataframe into a data\rawdata.csv file for better investigation. 
-3. add 2 new fields using "df.assign" method to the main dataframe acording the requirment logic -> risk\safe datasite & total voting.
-4. load the dataframe to db using sqlalchemy(to_sql).
-5. add exception handling (try,except,finally).
-6. add logger.
+2. use get/defaultdict on json quering to avoid keys error.
+3. load the responses dataframe into a data\rawdata.csv file for better investigation. 
+4. add 2 new fields using "df.assign" method to the main dataframe acording to the requirements logic -> risk\safe datasite & total voting.
+5. load the dataframe to db using sqlalchemy(to_sql).
+6. add exception handling (try,except,finally).
+7. add logger.
