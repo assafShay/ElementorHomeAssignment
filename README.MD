@@ -31,6 +31,7 @@ Suggestions for improvements or changes
 after getting another amount of available requests today, the run function should look like this:
 ofcourse i need to implement a db insert of the df using sqlalchemy to_sql method.
 
+```
 def run():
     with open('data\\request1.csv', newline='') as read_obj:
         csv_reader = csv.reader(read_obj)
@@ -67,3 +68,4 @@ def run():
 
         df = df.assign(site_risk=site_risk_list)
         df.to_csv('data\\site_risk.csv', index=False)
+```
