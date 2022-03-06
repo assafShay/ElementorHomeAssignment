@@ -19,10 +19,11 @@ run pip install -r requirements.txt
 
 Suggestions for improvements or changes
 1. create it as flask web app api as a microservice arcitecture (config, route, model, service etc).
-2. in each url iteration load the response into a list of responses and at the end load the list of responses into a pandas dataframe.
-3. use get/defaultdict on json quering to avoid keys error.
-4. load the responses dataframe into a data\rawdata.csv file for better investigation. 
-5. add 2 new fields using "df.assign" method to the main dataframe acording to the requirements logic -> risk\safe datasite & total voting.
-6. load the dataframe to db using sqlalchemy(to_sql).
-7. add exception handling (try,except,finally).
-8. add logger.
+2. if i had to build it as a simple etl app:
+3. in each url iteration load the response into a list of responses and at the end load the list of responses into a pandas dataframe.
+4. use get/defaultdict on json quering to avoid keys error.
+5. load the responses dataframe into a data\rawdata.csv file for better investigation. 
+6. add 2 new fields using "df.assign" method to the main dataframe acording to the requirements logic -> risk\safe datasite & total voting.
+7. load the dataframe to db using sqlalchemy(to_sql).
+8. add exception handling (try,except,finally).
+9. add logger.
