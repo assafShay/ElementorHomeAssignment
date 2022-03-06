@@ -18,7 +18,7 @@ Installation
 run pip install -r requirements.txt
 
 Suggestions for improvements or changes
-1. create it as flask web app api as a microservice arcitecture (config, route, model, service etc).
+1. create it as flask web app api as a microservice architecture (config, route, model, service etc).
 2. if i had to build it as a simple etl app:
 3. in each url iteration load the response into a list of responses and at the end load the list of responses into a pandas dataframe.
 4. use get/defaultdict on json quering to avoid keys error.
